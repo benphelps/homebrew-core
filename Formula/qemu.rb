@@ -44,8 +44,8 @@ class Qemu < Formula
       --enable-libssh
       --enable-vde
       --extra-cflags=-DNCURSES_WIDECHAR=1
-      --enable-cocoa
-      --disable-sdl
+      --disable-cocoa
+      --enable-sdl
       --disable-gtk
     ]
     # Sharing Samba directories in QEMU requires the samba.org smbd which is
